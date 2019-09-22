@@ -1,0 +1,24 @@
+{
+  "name": "@react-hackcamp/04-styled-components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-hackcamp/components": "1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "@react-workspaces/react-scripts": "3.0.0-alpha-04",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
