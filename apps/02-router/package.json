@@ -1,0 +1,54 @@
+{
+  "name": "@react-hackcamp/02-router",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-hackcamp/components": "1.0.0",
+    "@types/react": "^16.8.19",
+    "@types/react-router": "^5.0.1",
+    "@types/react-router-dom": "^4.3.3",
+    "babel-eslint": "^10.0.1",
+    "json-server": "^0.12.1",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^4.2.2",
+    "@react-workspaces/react-scripts": "3.0.0-alpha-04",
+    "typescript": "3.5.1"
+  },
+  "scripts": {
+    "start:client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --semi=false --single-quote --bracket-spacing=false --write 'src/**/*.js'",
+    "start": "npm-run-all -p start:*",
+    "start:server": "json-server -p 7000 src/mocks/cars.json",
+    "lint": "eslint src/**/*.js src/**/*.jsx"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-flowtype": "^3.9.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.10.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
